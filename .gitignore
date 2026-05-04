@@ -1,0 +1,59 @@
+# === Dependencias ===
+node_modules/
+
+# === Variables de entorno (SENSIBLE) ===
+.env
+.env.*
+!.env.example
+
+# === Sources (archivos fuente originales) ===
+sources/
+
+# === Artifacts generados ===
+artifact/
+
+# === Next.js ===
+.next/
+out/
+
+# === Prisma ===
+web/generated/
+web/prisma/*.db
+web/prisma/*.db-journal
+
+# === Build ===
+dist/
+build/
+*.tsbuildinfo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Backups de base de datos ===
+backups/
+
+# === Exports de datos ===
+exports/
+
+# === Docker volúmenes locales ===
+postgres_data/
+postgres_dev_data/
+
+# === Logs ===
+*.log
+npm-debug.log*
+
+# === Imágenes de depuración (Visual Bugs) ===
+tofix/
+
+# === Documentación de infraestructura propia (no compartir en forks) ===
+docs/migracion-ec2.*
